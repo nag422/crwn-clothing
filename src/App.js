@@ -1,13 +1,13 @@
 import React from 'react';
-import HomePage from './homepage.component';
-import './homepage.styles.scss';
+import './pages/Homepage/homepage.styles.scss';
+import Directory from './components/directory/directory.component';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <HomePage />
+     <Directory />
     </div>
   );
 }
